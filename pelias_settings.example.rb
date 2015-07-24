@@ -26,19 +26,16 @@ Vagrant.configure('2') do |config|
         'geonames' => {
           'index_data' => true,
           'alpha2_country_codes' => [
-            'GB'
           ]
         },
         'quattroshapes' => {
           'index_data' => true,
           'alpha3_country_codes' => [
-            'GBR'
           ]
         },
         'osm' => {
           'index_data' => true,
           'extracts' => {
-            'london' => 'https://s3.amazonaws.com/metro-extracts.mapzen.com/london_england.osm.pbf'
           }
         }
       }

@@ -12,6 +12,8 @@ version          '0.6.0'
   user
   runit
   nodejs
+  htop
+  dstat
 ).each do |dep|
   depends dep
 end
